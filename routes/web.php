@@ -73,6 +73,9 @@ Route::post('post-add-group-user-ajax', [AdminController::class, 'group_user_aja
 
 //Cập nhật nhóm người dùng AJAX
 Route::put('update-group-user/{id}', [AdminController::class, 'update_group_user']);
+
+//Thêm chức năng
+Route::get('thu-3-code-lai', [AdminController::class, 'update_group_user']);
 //=============== TRANG QUẢN TRỊ ========================================================
 
 
